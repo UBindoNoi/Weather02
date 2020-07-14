@@ -26,8 +26,6 @@ function search(){
             }else{
                 document.querySelector('#temp__min').innerHTML = `Temp min: -${Math.round(+data.main.temp_min - 273)}&deg;`;
             }
-            document.querySelector('#wind__temp').innerHTML = `${+data.wind.deg - 273}&deg;`;
-            document.querySelector('#wind__speed').innerHTML = `${+data.wind.speed}`;
         })
         .catch(function (){
             // catch any errors

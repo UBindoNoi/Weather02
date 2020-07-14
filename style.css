@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#323536;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Container */
+
+.container{
+    margin: 60px;
+    width: 20em;
+    height: 20em;
+    border-radius: 13px;
+    background: #3D29BE;
+}
+
+.main{
+    color: white;
+    height: 11em;
+    background: #3D29BE;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.days{
+    background: #FAFAFA;
+    height: 9em;
+    border-radius: 13px;
+}
+
+.input{
+    margin: 4px;
+    display: inline-block;
+}
+
+#input{
+    border: none;
+    padding: 4px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.button{
+    display: inline-block;
+}
+
+
+#button{
+    border-radius: 8px;
+    background: #FAFAFA;
+    padding: 4px;
+    font-size: 20px;
+    border: none;
+}
+
+#button:hover{
+    background: silver;
+}
+
+/* Text */
+
+#name{
+    font-size: 25px;
+}
+
+#temp{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+}
+
+#weather{
+    font-size: 26px;
+}
+
+#country{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 6%;
+    font-weight: bold;
+}
+
+#sky{
+    text-align: right;
+    padding-right: 7%;
+    font-size: 19px;
+}
+
+#temp__max{
+    font-size: 23px;
+    text-align: center;
+    padding-left: 5px;
+}
+#temp__min{
+    font-size: 23px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.wind{
+    font-size: 27px;
+    text-align: center;
+}
+
+#wind__temp{
+    font-size: 23px;
+    text-align: center;
+}
+
+#wind__speed{
+    font-size: 22px;
+    text-align: center;
+}

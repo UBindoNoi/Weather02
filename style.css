@@ -52,14 +52,14 @@ body{
 
 #button{
     border-radius: 8px;
-    background: #41FF41;
+    background: #66DDAA;
     padding: 4px;
     font-size: 20px;
     border: none;
 }
 
 #button:hover{
-    background: silver;
+    background: #68DC68;
 }
 
 /* Text */
